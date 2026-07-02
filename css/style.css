@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;                                                                                                                                                                                                                            
+    padding: 10px 20px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu li{
+    margin-left: 10px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: aqua;
+}        
+
+section.banner{
+    background-color: crimson;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner .banner-info{
+    color: black;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+main div{
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+main div img{
+    width: auto;
+    height: 200px;
+}
+
+footer {
+    background-color: firebrick;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
