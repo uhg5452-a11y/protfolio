@@ -21,7 +21,7 @@ nav{
 
 .menu li a{
     text-decoration: none;
-    color: aqua;
+    color: rgb(0, 0, 0);
 }        
 
 section.banner{
@@ -52,6 +52,10 @@ main div img{
     height: 200px;
 }
 
+main div img{
+    width: auto;
+    height: 200px;
+}
 footer {
     background-color: firebrick;
     color: white;
