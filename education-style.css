@@ -1,0 +1,37 @@
+*{
+.education
+    text-align: center;
+    padding: 40px;
+    background: #f5f7fa;
+}
+
+.education h1{
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+.education img{
+    width: 80%;
+    max-width: 700px;
+    border-radius: 20px;
+    border: 5px solid white;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    transition: 0.3s ease;
+}
+
+.education img:hover{
+    transform: scale(1.03);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+}
+.education{
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    flex-direction: column;
+    text-align: center;
+}
+
+.education img{
+    width: 80%;
+    max-width: 700px;
+}
